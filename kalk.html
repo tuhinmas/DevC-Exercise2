@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+    .padding-top{
+        margin-top: 90px;
+    }
+    .padding{
+        margin-top: 30px;
+    }
+    </style>
+</head>
+<body style="background-color: aqua">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="padding-top">
+                    
+                            <input type="text" id="angka1" class="form form-control">
+                            <div class="padding"></div>
+                            <input type="text" id="angka2" class="form form-control">
+                            <div class="padding"></div>
+                            <h2 id="h2">0</h2>
+                            <div class="padding"></div>
+
+                            <button onclick="hitungTambah()" id="tambah" class="btn btn-danger btn-lg" name="tambah">+</button>
+                            <button onclick="hitungKurang()" id="kurang" class="btn btn-danger btn-lg" name="kurang">-</button>
+                            <button onclick="hitungKali()" id="kali" class="btn btn-danger btn-lg" >x</button>
+                            <button onclick="hitungBagi()" id="bagi" class="btn btn-danger btn-lg" >/</button>
+                            <button onclick="hitungMod()" id="mod" class="btn btn-danger btn-lg" >%</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
